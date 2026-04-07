@@ -1,0 +1,32 @@
+<Students>
+    <student>
+    <FirstName>Prasanna</FirstName>
+    <DOB>30-04-2003</DOB>
+    <Email>prasanna@outlook.com</Email>
+    <Addresses>
+        <TempAddress>
+            <street>ragavendhra colony</street>
+            <city>hyderabad</city>  
+        </TempAddress>
+        <PemAddress>
+            <street>sundereshwar nagar</street>
+            <city>kakinada</city>  
+        </PemAddress>
+    </Addresses>
+    <Student>
+    <student>
+    <FirstName>sreeja</FirstName>
+    <DOB>01-04-2003</DOB>
+    <Email>prasanna@outlook.com</Email>
+    <Addresses>
+        <TempAddress>
+            <street>ragavendhra colony</street>
+            <city>hyderabad</city>  
+        </TempAddress>
+        <PemAddress>
+            <street>sundereshwar nagar</street>
+            <city>kakinada</city>  
+        </PemAddress>
+    </Addresses>
+    <Student>
+</Students>
