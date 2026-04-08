@@ -1,0 +1,11 @@
+- name: play level variables
+  hosts: local
+  connect: local
+  vars:
+    NAME: "prasanna"
+    AGE: "22"
+    COLOUR: "pink"
+  tasks: 
+  - name: print variables
+    ansible.builtin.debug:
+      msg: "My name is {{ NAME }}, My age is {{ AGE }} i am in {{ COLOUR }} color"  
