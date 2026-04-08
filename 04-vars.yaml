@@ -1,6 +1,6 @@
 - name: play level variables
   hosts: local
-  connect: local
+  connection: local
   vars:
     NAME: "prasanna"
     AGE: "22"
