@@ -3,8 +3,8 @@
   connection: local 
   # vars_files:
   # - course.yaml
-  vars:
-   NAME: "var from play"
+  # vars:
+  #  NAME: "var from play"
   # vars_prompt:
   # - name: NAME
   #   prompt: enter the name
