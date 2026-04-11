@@ -5,10 +5,10 @@
   # - course.yaml
   vars:
    NAME: "var from play"
-  vars_prompt:
-  - name: NAME
-    prompt: enter the name
-    private: false
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: enter the name
+  #   private: false
   tasks:
   - name: print variables from args
     # vars:
