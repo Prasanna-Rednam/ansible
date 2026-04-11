@@ -1,0 +1,17 @@
+- name: varsiable from args
+  hosts: local
+  connection: local 
+  vars_files:
+  - course.yaml
+  vars:
+   NAME: "var from play"
+  vars_prompt:
+  - name: NAME
+    prompt: enter the name
+    private: false
+  tasks:
+  - name: print variables from args
+    vars:
+     NAME: "var from task"
+    ansible.builtin.debug:
+      msg: "Hi {{NAME}}, Good morning" 
