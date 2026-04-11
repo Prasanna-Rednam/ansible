@@ -1,5 +1,5 @@
 - name: install package
-  host: local
+  hosts: local
   connection: local
   task:
   - name: install packages
