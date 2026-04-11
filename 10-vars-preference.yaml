@@ -1,8 +1,8 @@
 - name: varsiable from args
   hosts: local
   connection: local 
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars:
    NAME: "var from play"
   vars_prompt:
